@@ -1,0 +1,12 @@
+{
+  "passengerName": "Rajesh Kumar",
+  "passengerCount": 1,
+  "origin": "BLR",
+  "destination": "JAI",
+  "departureTime": "2026-09-15T06:00:00.000Z",
+  "arrivalDeadline": "2026-09-15T16:30:00.000Z",
+  "maxAdditionalBudget": 5000,
+  "priority": "fastest",
+  "disruptionType": "none",
+  "status": "draft"
+}

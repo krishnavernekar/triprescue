@@ -1,0 +1,21 @@
+{
+  "name": "triprescue-server",
+  "version": "0.1.0",
+  "description": "TripRescue - Autonomous Travel Disruption Recovery Agent (Backend)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node --test --test-concurrency=1 src/tests/**/*.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
